@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/frame_margin"
+    android:id="@+id/fragment_contacts"
+    tools:context=".fragments.ContactsFragment">
+
+   <TextView
+       android:id="@+id/person1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="@dimen/text_padding"
+       android:hint="@string/enter_contact"
+       android:textStyle="bold"
+       android:textSize="@dimen/text_size"
+       />
+    <TextView
+        android:id="@+id/person2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding"
+        android:hint="@string/enter_contact"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        />
+    <TextView
+        android:id="@+id/person3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding"
+        android:hint="@string/enter_contact"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        />
+
+ </LinearLayout>
